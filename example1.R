@@ -36,8 +36,10 @@ Fis(shrikes)
 
 #(5) Genetic distances - eg. AMOVA - analysis of molecular variance distance, Nei distance
 amova.dist<-genetic_distance(shrikes,stratum="Population",mode="AMOVA")
-nei.dist<-genetic_distance(shrikes,stratup="Population",mode="Nei")
-dist_euclidian(shrikes)
+nei.dist<-genetic_distance(shrikes,stratum="Population",mode="Nei")
+
+
+dist_euclidean(shrikes)
 
 
 
